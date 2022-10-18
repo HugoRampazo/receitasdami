@@ -1,0 +1,25 @@
+{% extends 'paginas/modelo.html' %}
+
+{% load static %}
+
+{% block titulo %}
+    <title>Início | Receitas da Mi</title>
+{% endblock %}
+
+{% block conteudo %}
+    <div class="container">
+        <h3 align="center">Seja bem vindo à Receitas da Mi</h3>
+
+        <br>
+
+        <div align="center">
+            <img src="{% static 'img/miucha.jpg' %}" width="500" class="rounded-circle">
+        </div>
+
+        <br>
+
+        <h3 align="center">Aproveite as receitas favoritas da Miucha.</h3>
+        <h4 align="center">Explore o site e descubra os pratos mais deliciosos!!</h4>
+
+    </div>
+{% endblock %}

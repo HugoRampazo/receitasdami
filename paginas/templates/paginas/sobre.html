@@ -1,0 +1,29 @@
+{% extends 'paginas/modelo.html' %}
+
+{% load static %}
+
+{% block titulo %}
+    <title>Sobre | Receitas da Mi</title>
+{% endblock %}
+
+{% block conteudo %}
+    <div class="container">
+        <h3 align="center">Sobre: Receitas da Mi</h3>
+
+        <br>
+
+        <div align="center">
+            <img src="{% static 'img/chef.png' %}" width="300" class="rounded-circle">
+        </div>
+
+        <br>
+
+        <h3 align="center">Esse site foi desenvolvido por mim, Hugo Rampazo.</h3>
+        <h4 align="center">Criado para minha esposa publicar suas receitas favoritas.</h4>
+
+        <br>
+
+        <h5 align="center">Informações de contato | email: hugo-batalha@hotmail.com | instagram: <a href="https://www.instagram.com/hugorampazo/">@hugorampazo</a></h5>
+
+    </div>
+{% endblock %}
